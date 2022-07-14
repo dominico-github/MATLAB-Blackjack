@@ -1,0 +1,11 @@
+input                Result
+1                    Loop runs: Card is generated
+0                    Loop doesn't run: Card isn't drawn
+" "                  Loop doesn't run: Card isn't drawn
+djfalksdjfkl         Error
+Hit                  Error
+Stand                Error
+
+
+
+% Note to self: Update code to restrict all inputs except the 2 choices given

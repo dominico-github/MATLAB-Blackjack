@@ -1,0 +1,19 @@
+Tests for inputs when prompted: "Enter 0 to stand or 1 to hit: "
+
+Input					Result
+1						A card is drawn and added to player's cards
+0						Player stands (no card draw)
+stand                   Error
+hit                     Error 
+111                     Player stands (no card draw)
+""                      Player stands (no card draw)   
+
+Tests for inputs when prompted: "Enter 1 to play again or 0 to stop: "
+
+Input					Result
+1						Game loops back and runs again
+0						Game stops
+stop					Error
+again					Error
+123						Game stops
+""						Game stops

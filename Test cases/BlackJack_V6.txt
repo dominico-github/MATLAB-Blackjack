@@ -1,0 +1,31 @@
+Tests for inputs when prompted: "Input 'hit' to Hit or 'stand' to Stand: "
+
+Input					Result
+hit						A card is drawn and added to player's cards
+stand					Player stands (no card draw)
+1                   	"Invalid input. Input 'hit' or 'stand': "
+0                     	"Invalid input. Input 'hit' or 'stand': " 
+111                     "Invalid input. Input 'hit' or 'stand': "
+""                      "Invalid input. Input 'hit' or 'stand': "
+HIT						"Invalid input. Input 'hit' or 'stand': "
+
+Tests for inputs when prompted: "Input yes to play again, or no to stop: "
+
+Input					Result
+yes						Game loops back and runs again
+no						Game stops
+stop					"Invalid input. Input 'yes' or 'no': "
+again					"Invalid input. Input 'yes' or 'no': "
+123						"Invalid input. Input 'yes' or 'no': "
+""						"Invalid input. Input 'yes' or 'no': "
+
+Tests for inputs when prompted: "How much money would you like to bet?: "
+Note: This is for the initial prompt when playerMoney = 100
+
+Input					Result
+100						Bet is accepted, game proceeds
+0						Bet is accepted, game proceeds
+One hundred				"Invalid input. How much would you like to bet: "
+""						"Invalid input. How much would you like to bet: "
+-50						"Invalid input. How much would you like to bet: "
+50						Bet is accepted, game proceeds

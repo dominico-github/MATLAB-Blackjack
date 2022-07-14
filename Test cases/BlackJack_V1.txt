@@ -1,0 +1,7 @@
+Input					Result
+1						A card is drawn and added to player's cards
+0						Player stands (no card draw)
+stand                   Error
+hit                     Error 
+111                     Player stands (no card draw)
+""                      Player stands (no card draw)                  					

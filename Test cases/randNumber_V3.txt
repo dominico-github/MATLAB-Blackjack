@@ -1,0 +1,3 @@
+As the program uses random number generation, proper tests cannot be done.
+Although the sequence of cards may be different each time, the program should only output
+card values (for PlayerCard) from 1 and 10 each time

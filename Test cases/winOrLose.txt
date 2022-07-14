@@ -1,0 +1,7 @@
+input                        output
+Player = 20, Dealer = 18     "You win"
+Player = 18, Dealer = 20     "You lose"
+Player = 25, Dealer = 21     "You lose"
+Player = 15, Dealer = 23     "You win"
+Player = 18, Dealer = 18     "You drew"
+Player = 25, Dealer = 23     "You drew"
