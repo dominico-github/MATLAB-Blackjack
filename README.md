@@ -1,4 +1,5 @@
 # MATLAB-Blackjack
 Simple Blackjack game
 
-A Blackjack game created for an end of subject project. It is a text based game of Blackjack with a betting system included as well
+A MATLAB version of the Blackjack card game created for an introductory programming university subject. 
+Text based version with an included betting system.
